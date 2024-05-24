@@ -73,7 +73,6 @@ class Comentario
     // Método para insertar un nuevo comentario en la base de datos
     public function insertar_comentario()
     {
-        echo "Hola";
         try {
             $this->mi_connDB->conectar(); // Intenta conectarse a la base de datos
             // Prepara la consulta SQL para insertar el nuevo comentario
